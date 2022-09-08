@@ -6,8 +6,6 @@ import base64
 # import scipy
 # import scipy.optimize
 
-import shgo
-
 def render_svg(svg, col):
     """Renders the given svg string."""
     b64 = base64.b64encode(svg.encode('utf-8')).decode("utf-8")
